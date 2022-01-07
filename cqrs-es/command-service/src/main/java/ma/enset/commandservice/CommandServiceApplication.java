@@ -1,13 +1,13 @@
-package ma.ensetf.cqrf_es;
+package ma.enset.commandservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CqrfEsApplication {
+public class CommandServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CqrfEsApplication.class, args);
+        SpringApplication.run(CommandServiceApplication.class, args);
     }
 
 }
