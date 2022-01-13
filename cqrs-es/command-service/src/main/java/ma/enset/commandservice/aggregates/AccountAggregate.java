@@ -40,6 +40,7 @@ public class AccountAggregate {
         ));
     }
 
+    @EventSourcingHandler
     public void on(AccountCreatedEvent event){
         this.accountId = event.getId();
         this.currency = event.getCurrency();
