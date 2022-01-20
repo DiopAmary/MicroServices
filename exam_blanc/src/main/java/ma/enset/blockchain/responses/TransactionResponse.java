@@ -7,9 +7,7 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 import java.util.Date;
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
+@Data @AllArgsConstructor @NoArgsConstructor
 public class TransactionResponse implements Serializable {
 
     private static final long serialVersionUID = -4211697079970850848L;

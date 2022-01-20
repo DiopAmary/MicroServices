@@ -81,7 +81,7 @@ public class BlockchainController {
     }
 
     //put
-    @GetMapping(
+    @PutMapping(
             path = "/miner",
             produces = {
                     MediaType.APPLICATION_JSON_VALUE

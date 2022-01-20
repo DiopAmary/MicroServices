@@ -6,3 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface BlockchainRepository extends JpaRepository<BlockchainEntity, Long> {
     BlockchainEntity findBlockchainEntityByCodeBlockchain(String codeBlockchain);
 }
+
+
+

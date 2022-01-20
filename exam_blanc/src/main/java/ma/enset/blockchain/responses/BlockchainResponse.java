@@ -8,9 +8,7 @@ import ma.enset.blockchain.dtos.BlockDto;
 import java.io.Serializable;
 import java.util.Collection;
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
+@Data @AllArgsConstructor @NoArgsConstructor
 public class BlockchainResponse implements Serializable {
 
     private static final long serialVersionUID = -4211697066970850848L;

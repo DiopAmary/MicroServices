@@ -5,9 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import java.io.Serializable;
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
+@Data @AllArgsConstructor @NoArgsConstructor
 public class TransactionRequest implements Serializable {
     private static final long serialVersionUID = -4211697056270850848L;
 

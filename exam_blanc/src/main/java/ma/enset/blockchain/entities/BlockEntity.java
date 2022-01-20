@@ -31,7 +31,6 @@ public class BlockEntity {
         this.hashPrevious = hashP;
         this.nonce = nonce;
     }
-
     @PrePersist
     public void setCreatedAt() {
         this.dateBlock = new Date();
